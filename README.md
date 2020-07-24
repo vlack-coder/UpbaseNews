@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About App
+This Application is a Web News App built using React as the front end framework The NewsApi was used to get Up-to-date news on different Categories
+
 
 ## Available Scripts
 
