@@ -1,38 +1,81 @@
-.App {
+
+
+* Forms */
+input {
+  margin: 1.2rem 0;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+input[type='submit'],
+button {
+  font: inherit;
+}
+
+.form-group {
+  margin: 1.2rem 0;
+}
+
+.form-group input {
+  margin: 0.2rem 0;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-Radius: 10px;
+  padding: 2rem 2rem;
+  background-image: linear-gradient(to right bottom, #e4dbd3, #e8dcd9, #e8dedf, #e6e0e5, #e4e3e8, #e2e2e7, #dfe0e5, #dddfe4, #d9d9e0, #d6d4db, #d3ced5, #d1c8cf);
+}
+
+.form-container h1,
+h2,
+h3 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  background: #e77111;
+  border: none;
+  color: rgb(3, 0, 0);
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1;
+  border-radius: 15px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+  &:hover {
+    padding: 2rem 3rem;
+    background: #994806;
+    color: white
+}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.button--link {
+  background:  #e77111;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button--secondary {
+  background: #888;
 }
